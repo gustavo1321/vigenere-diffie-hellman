@@ -6,8 +6,8 @@ Sintaxis: java < algoritmo >
 
 < algoritmo > :
 
-	-vig	 Algoritmo Vigenere
-	-dif	 Algporitmo Diffie Hellman
+	- vig	 Algoritmo Vigenere
+	- dif	 Algporitmo Diffie Hellman
 
 Consultar la ayuda del algoritmo en especifico:
 Sintaxis: java Main < algoritmo > -a
@@ -18,8 +18,10 @@ Sintaxis: java Main < algoritmo > -a
 Sintaxis: java Main -vig <modo> -e < ArchivoEntrada > -k < ArchivoClave >  
 
 < modo >
-	 - c para cifrar el archivo <ArchivoEntrada>
-	 - d para descifrar el archivo <ArchivoEntrada>
+
+	 - c para cifrar el archivo < ArchivoEntrada >
+	 
+	 - d para descifrar el archivo < ArchivoEntrada >
 
 < ArchivoEntrada >: nombre del archivo de entrada
 
