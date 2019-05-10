@@ -39,7 +39,7 @@ Elaborado por: Gustavo Florez y Christian Delgado
 
 
 --------------------------------------------------------------------------------------------------------------
-                     ALGORITMO DIFFIE HELLMAN
+                                            ALGORITMO DIFFIE HELLMAN
 
 Sintaxis: java Main -dif -p <ArchivoPrimo> -b <ArchivoBase> -s1 <ArchivoSecreto1> -s2 <ArchivoSecreto2>
 
