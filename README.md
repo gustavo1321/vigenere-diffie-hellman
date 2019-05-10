@@ -1,7 +1,4 @@
-# vigenere-diffie-hellman
-Codigo Fuente Algoritmo Vigenere y Diffie Hellman
-
-MENU:
+                                                      MENU:
 
 ALGORITMOS CRIPTOGRAFICOS
 
