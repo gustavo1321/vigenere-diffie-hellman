@@ -10,16 +10,16 @@ Sintaxis: java < algoritmo >
 	-dif	 Algporitmo Diffie Hellman
 
 Consultar la ayuda del algoritmo en especifico:
-Sintaxis: java Main <algoritmo> -a
+Sintaxis: java Main < algoritmo > -a
 
 --------------------------------------------------------------------------------------------------------------
                                                 ALGORITMO VIGENERE
 
 Sintaxis: java Main -vig <modo> -e < ArchivoEntrada > -k < ArchivoClave >  
 
-<modo>
-	 -c para cifrar el archivo <ArchivoEntrada>
-	 -d para descifrar el archivo <ArchivoEntrada>
+< modo >
+	 - c para cifrar el archivo <ArchivoEntrada>
+	 - d para descifrar el archivo <ArchivoEntrada>
 
 < ArchivoEntrada >: nombre del archivo de entrada
 
