@@ -15,8 +15,6 @@ Sintaxis: java <algoritmo>
 Consultar la ayuda del algoritmo en especifico:
 Sintaxis: java Main <algoritmo> -a
 
-AYUDA VIGENERE
-
 --------------------------------------------------------------------------------------------------------------
                                                 ALGORITMO VIGENERE
 
@@ -39,7 +37,6 @@ Ejemplo:
 Elaborado por: Gustavo Florez y Christian Delgado
 --------------------------------------------------------------------------------------------------------------
 
-                                                AYUDA DIFFIE HELLMAN
 
 --------------------------------------------------------------------------------------------------------------
                      ALGORITMO DIFFIE HELLMAN
