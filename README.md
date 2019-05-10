@@ -2,9 +2,9 @@
 
 ALGORITMOS CRIPTOGRAFICOS
 
-Sintaxis: java <algoritmo>
+Sintaxis: java < algoritmo >
 
-<algoritmo>:
+< algoritmo > :
 
 	-vig	 Algoritmo Vigenere
 	-dif	 Algporitmo Diffie Hellman
