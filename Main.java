@@ -32,7 +32,10 @@ public class Main {
 		System.out.println("\t-dif\t Algporitmo Diffie Hellman");
 		System.out.println("");
 		System.out.println("Consultar la ayuda del algoritmo en especifico:");
-		System.out.println("Sintaxis: java Main <algoritmo> -a");		
+		System.out.println("Sintaxis: java Main <algoritmo> -a\n");
+		System.out.println("UNIVERSIDAD AUTONOMA DE OCCIDENTE");
+		System.out.println("Gustavo Florez y Crhistian Delgado");
+		System.out.println("gustavo.florez@uao.edu.co & crhistian.delgado@uao.edu.co" );
 	}
 
 	public static void main(String[] args) {
@@ -133,12 +136,7 @@ public class Main {
 				System.exit(0); 
 			}
 			
-			/*if(args[6].equals("26") == false && args[6].equals("27") == false) {
-				System.out.println("Alfabeto no soportado: "+args[6]);
-				System.exit(0); 
-			}
-				*/		
-			//String[] arg = {"D", "a.key", "a2.txt", "26"};
+			
 			
 			String archivoEntrada = args[3];
 			String archivoKey = args[5];
@@ -303,7 +301,8 @@ public class Main {
 			System.out.println("Ejemplo:");
 			System.out.println("\t Cifrar: java Main -vig -c -e archivo.txt -k archivo.key");
 			System.out.println("\t Descifrar: java Main -vig -d -e archivo.txt -k archivo.key\n");
-			System.out.println("Elaborado por: Gustavo Florez y Christian Delgado");			
+			System.out.println("Elaborado por: Gustavo Florez y Christian Delgado");
+			System.out.println("gustavo.florez@uao.edu.co & crhistian.delgado@uao.edu.co" );
 		}
 		if(algoritmo.equals("-dif")) {
 			System.out.println("                     ALGORITMO DIFFIE HELLMAN\n");
@@ -314,7 +313,8 @@ public class Main {
 			System.out.println("<ArchivoSecreto2>: nombre del archivo que contiene el secreto 2\n");			
 			System.out.println("Ejemplo:");
 			System.out.println("\t java Main -dif -p primo.txt -b base.txt -s1 secreto1.txt -s2 secreto2.txt\n");			
-			System.out.println("Elaborado por: Gustavo Florez y Christian Delgado");			
+			System.out.println("Elaborado por: Gustavo Florez y Christian Delgado");
+			System.out.println("gustavo.florez@uao.edu.co & crhistian.delgado@uao.edu.co" );
 		}		
 		System.out.println("--------------------------------------------------------------------------------------------------------------");
 	}
