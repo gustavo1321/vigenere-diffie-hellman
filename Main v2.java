@@ -179,7 +179,7 @@ public class Main {
 					
 					System.out.println("Procesando...\n");
 					long inicio = System.currentTimeMillis();
-					escribirArchivo(procesarVigenere(parametros), "claro", "txt");
+					escribirArchivo(procesarVigenere(parametros), "salida", "des");
 					long fin = System.currentTimeMillis();
 					System.out.println("Operacion terminada con exito!\n");
 					System.out.println("Se tardo "+(fin-inicio)/1000.0 + " segundos");
